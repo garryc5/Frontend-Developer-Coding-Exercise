@@ -62,6 +62,10 @@ button
 {
  margin: 3vh;
 }
+#lightblueBox img
+{
+  width: 80vw;
+}
 .darkblueBox
 {
     background-color: #05263a;
