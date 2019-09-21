@@ -94,6 +94,10 @@ button
     color: white;
     padding: 4vmax;
 }
+#pinkBox img
+{
+    display: none;
+}
 .arrowDown
 {
   width: 0; 
@@ -147,6 +151,16 @@ button
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 4vh 0;
-
+    }
+    #pinkBox
+    {
+        display: grid;
+        grid-template-columns: 1fr 9fr;
+        align-items:  center;
+    }
+    #pinkBox img
+    {
+    display: inline;
+    width: 8vw;
     }
 }
