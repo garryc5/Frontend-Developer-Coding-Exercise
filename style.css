@@ -1,0 +1,148 @@
+.arial
+{
+    font-family: arial, sans-serif;
+}
+.lato
+{
+    font-family:"Lato", sans-serif;
+}
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+#grid2x5
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#grid2x5 h4
+{
+    text-align: left;
+    position: relative;
+    top: 3vh;
+}
+hr
+{
+    border-color: #005282;
+    width: 90vw;
+    margin: 5vmin;
+}
+body 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vmax 2vmax;
+}
+.blueText
+{
+    color: #005282; 
+}
+button
+{
+    border-radius:  2%/10%;
+    background-color: #005282;
+    height: 12vh;
+    width: 96vw;
+    margin: 5vw 0;
+    color: white;
+    font-size: 20px;
+}
+#lightblueBox
+{
+    background-color: #71a1be;
+    width: 100vw;
+    padding: 5vmax;
+    color: white;
+}
+#lightblueBox *
+{
+ margin: 3vh;
+}
+.darkblueBox
+{
+    background-color: #05263a;
+    color: white;
+    width: 100vw;
+    padding: 5vh;
+}
+.darkblueBox *
+{
+    padding: 1vh;
+}
+
+#checkBoxes 
+{
+    padding: 4vmax;
+    background-color: rgb(244, 244, 244);
+}
+#checkBoxes * 
+{
+    padding: 2vmax 0;
+}
+#pinkBox
+{
+    background-color: #f58c99;
+    width: 100vw;
+    color: white;
+    padding: 4vmax;
+}
+.arrowDown
+{
+  width: 0; 
+  height: 0; 
+  border-left: 20vw solid transparent;
+  border-right: 20vw solid transparent;
+  border-top: 7vh solid #05263a;
+}
+@media only screen and (min-width: 600px)
+{
+    button
+    {
+        width: 40vw;
+    }
+    #lightblueBox
+    {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 1vw;
+        background-color: white;
+    }
+    #lightblueBox *
+    {
+        padding: 3vh;
+        margin: 1vw;
+        background-color: #71a1be;
+    }
+    #lightblueBox img
+    {
+        width: 30vw;
+    }
+    #countDownTimer
+    {
+        margin: 12vh auto;
+        font-size: 32px;
+    }
+    .authorCard
+    {
+        width: 48vw;
+    }
+    .darkblueBox img
+    {
+        width: 40vw;
+    }
+    #checkBoxes
+    {
+        width: 48vw;
+    }
+    #author
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 4vh 0;
+
+    }
+}
